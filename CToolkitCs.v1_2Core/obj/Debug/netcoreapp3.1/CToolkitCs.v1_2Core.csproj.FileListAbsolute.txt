@@ -1,0 +1,10 @@
+D:\ycProject\github\ctoolkitcs\v1_2\CToolkitCs.v1_2Core\bin\Debug\netcoreapp3.1\CToolkitCs.v1_2Core.deps.json
+D:\ycProject\github\ctoolkitcs\v1_2\CToolkitCs.v1_2Core\bin\Debug\netcoreapp3.1\CToolkitCs.v1_2Core.dll
+D:\ycProject\github\ctoolkitcs\v1_2\CToolkitCs.v1_2Core\bin\Debug\netcoreapp3.1\CToolkitCs.v1_2Core.pdb
+D:\ycProject\github\ctoolkitcs\v1_2\CToolkitCs.v1_2Core\obj\Debug\netcoreapp3.1\CToolkitCs.v1_2Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\ycProject\github\ctoolkitcs\v1_2\CToolkitCs.v1_2Core\obj\Debug\netcoreapp3.1\CToolkitCs.v1_2Core.AssemblyInfoInputs.cache
+D:\ycProject\github\ctoolkitcs\v1_2\CToolkitCs.v1_2Core\obj\Debug\netcoreapp3.1\CToolkitCs.v1_2Core.AssemblyInfo.cs
+D:\ycProject\github\ctoolkitcs\v1_2\CToolkitCs.v1_2Core\obj\Debug\netcoreapp3.1\CToolkitCs.v1_2Core.csproj.CoreCompileInputs.cache
+D:\ycProject\github\ctoolkitcs\v1_2\CToolkitCs.v1_2Core\obj\Debug\netcoreapp3.1\CToolkitCs.v1_2Core.dll
+D:\ycProject\github\ctoolkitcs\v1_2\CToolkitCs.v1_2Core\obj\Debug\netcoreapp3.1\CToolkitCs.v1_2Core.pdb
+D:\ycProject\github\ctoolkitcs\v1_2\CToolkitCs.v1_2Core\obj\Debug\netcoreapp3.1\CToolkitCs.v1_2Core.csproj.AssemblyReference.cache
