@@ -8,21 +8,31 @@ namespace NetTubeClean.Sample01.Operator
     public class NetTubeCleanAlarmRow
     {
 
-
-        public ushort Index;
+        public ENetTubeCleanAlarmGroup Group;
         public String HmiName;
-        public String PlcName;
-        public Label Label;
-        public EMyAlarmGroup Group;
-        public bool IsUpdated;
+        public ushort Index;
         public bool IsOn;
-
-        public NetTubeCleanAlarmRow(ushort index, String hmiName, String plcName, EMyAlarmGroup group = EMyAlarmGroup.None)
+        public bool IsUpdated;
+        public String PlcName;
+        public Object RelatedObj;
+        public NetTubeCleanAlarmRow(ushort index, String hmiName, String plcName, ENetTubeCleanAlarmGroup group = ENetTubeCleanAlarmGroup.None)
         {
             this.Index = index;
             this.HmiName = hmiName;
             this.PlcName = plcName;
             this.Group = group;
+        }
+
+        public String GetFullName()
+        {
+            var name = this.HmiName;
+            if (String.IsNullOrEmpty(name))
+                name = this.PlcName;
+
+            if (this.Group != ENetTubeCleanAlarmGroup.None)
+                return this.Group + "/" + name;
+            return name;
+
         }
 
         public String GetName()
@@ -31,18 +41,5 @@ namespace NetTubeClean.Sample01.Operator
                 return this.HmiName;
             return this.PlcName;
         }
-        public String GetFullName()
-        {
-            var name = this.HmiName;
-            if (String.IsNullOrEmpty(name))
-                name = this.PlcName;
-
-            if (this.Group != EMyAlarmGroup.None)
-                return this.Group + "/" + name;
-            return name;
-
-        }
-
-
     }
 }

@@ -8,10 +8,14 @@ namespace NetTubeClean.Sample01.Operator
     {
         None,
 
+        /// <summary> Read Dxxxx Hold Register </summary>
         ReadData,
+        /// <summary> Write Dxxxx Hold Register </summary>
         WriteData,
 
+        /// <summary> Read Yxxx Coil </summary>
         ReadCoil,
+        /// <summary> Write Yxxx Coil </summary>
         WriteCoil,
 
 
